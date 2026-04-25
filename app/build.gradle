@@ -92,6 +92,11 @@ android {
     lint {
         lintConfig = file("lint.xml")
     }
+    android {
+        buildFeatures {
+            buildConfig = true
+        }
+    }
 }
 
 gradle.taskGraph.whenReady { taskGraph ->
