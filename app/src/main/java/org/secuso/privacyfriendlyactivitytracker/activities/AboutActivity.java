@@ -59,8 +59,4 @@ public class AboutActivity extends AppCompatActivity {
 
     }
 
-    //@Override
-    //protected int getNavigationDrawerID() {
-    //    return R.id.nav_about;
-    //}
 }

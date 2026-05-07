@@ -656,26 +656,4 @@ public class PreferencesActivity extends AppCompatPreferenceActivity {
         generalPreferenceFragment.generateCSVToExport();
     }
 
-    /**
-     * This fragment shows the help content.
-     */
-//    @TargetApi(Build.VERSION_CODES.HONEYCOMB)
-//    public static class HelpFragment extends PreferenceFragment {
-//        @Override
-//        public void onCreate(Bundle savedInstanceState) {
-//            super.onCreate(savedInstanceState);
-//            addPreferencesFromResource(R.xml.help);
-//            setHasOptionsMenu(false);
-//        }
-//
-//        @Override
-//        public boolean onOptionsItemSelected(MenuItem item) {
-//            int id = item.getItemId();
-//            if (id == android.R.id.home) {
-//                this.getActivity().onBackPressed();
-//                return true;
-//            }
-//            return super.onOptionsItemSelected(item);
-//        }
-//    }
 }
